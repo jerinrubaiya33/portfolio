@@ -7,114 +7,93 @@ Websites:
 - https://skillicons.dev (Skill Icons to show skills)
 - https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
 
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
 */
 
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
-    description: "Track your carbon footprint",
-    date: "2022-08-15",
-    demoLink: "https://ecotracker.example.com",
+    name: "Balloon PopUp",
+    description: "Popup the balloons & have fun",
+    date: "2024-08-15",
+    demoLink: "https://jerinrubaiya33.github.io/Balloon-PopUp/Balloon.html",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
-    description: "Digital art showcase platform",
-    date: "2022-06-20",
-    demoLink: "https://artgalleryonline.example.com",
+    name: "Space Shooter",
+    description: "Shoot enemies in space",
+    date: "2024-06-18",
+    demoLink: "https://jerinrubaiya33.github.io/shooter-space/space_shooter.html",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
-    description: "Plan and track expenses",
-    date: "2022-09-10",
-    demoLink: "https://budgetplanner.example.com",
+    name: "Travel agency",
+    description: "Move With Joy",
+    date: "2024-09-10",
+    demoLink: "https://jerinrubaiya33.github.io/Move-With-Joy/MOVE_WITH_JOY.html",
   },
   {
     id: 4,
-    name: "HealthBeat",
-    description: "Monitor heart rate zones",
-    date: "2022-05-30",
-    demoLink: "https://healthbeat.example.com",
+    name: "Login Page from",
+    description: "Sign in or up comfortably",
+    date: "2024-04-30",
+    demoLink: "https://jerinrubaiya33.github.io/Login_formPage/login_form.html",
   },
   {
     id: 5,
-    name: "RecipeFinder",
-    description: "Discover new recipes",
-    date: "2022-07-12",
-    demoLink: "https://recipefinder.example.com",
+    name: "Shoe",
+    description: "Basic Shoe Landing Page",
+    date: "2024-07-12",
+    demoLink: "https://jerinrubaiya33.github.io/Basic_Shoe_Landing_Page/Practise_HTML1.html",
   },
   {
     id: 6,
-    name: "JourneyLogger",
-    description: "Log your travels",
-    date: "2022-10-01",
-    demoLink: "https://journeylogger.example.com",
+    name: "Landing page",
+    description: "Website for nature resort",
+    date: "2024-10-01",
+    demoLink: "https://youtu.be/jExUE9waKv8?si=F1XJB6AoZ9P4iVGo",
   },
   {
     id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
+    name: "Sliding Image",
+    description: "Slide Images to see the beauty",
+    date: "2024-04-18",
+    demoLink: "https://jerinrubaiya33.github.io/Sliding_Image/Sliding_Image.html",
   },
   {
     id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
+    name: "Organic",
+    description: "Selling Organic goods",
+    date: "2024-11-05",
+    demoLink: "https://jerinrubaiya33.github.io/Organic_Web.html/ORGANIC.html",
   },
 ];
 
 export const BtnList = [
-  { label: "Home", link: "/", icon: "home", newTab: false },
+  // { label: "Home", link: "/", icon: "home", newTab: false },
   { label: "About", link: "/about", icon: "about", newTab: false },
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/jerinrubaiya33",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/jerin-rubaiya/",
     icon: "linkedin",
     newTab: true,
   },
-  {
-    label: "X",
-    link: "https://www.x.com/code_bucks",
-    icon: "twitter",
-    newTab: true,
-  },
+  // {
+  //   label: "X",
+  //   link: "https://www.x.com/code_bucks",
+  //   icon: "twitter",
+  //   newTab: true,
+  // },
   {
     label: "Resume",
-    link: "/resume.pdf",
+    link: "/Resume.pdf",
     icon: "resume",
     newTab: true,
   },
